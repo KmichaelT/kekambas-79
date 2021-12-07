@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+.hero_section{
+    height: 50vh;
+    width: 100vw;
+    background-color: hsl(186, 38%, 95%);
+}
+.nav-wrapper{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+
+}
+nav{
+    display: flex;
+    width: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+nav img{
+    height: 51px;
+}
+.nav_menu{
+    flex: 1;
+    text-align: right;
+     
+}
+
+.nav_menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 12px;
+    position: relative;
+    
+}
+
+
+.nav_menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 200;
+    transition: 0.4s;
+    
+}
+.nav_menu ul li a:hover {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 900;
+    
+}
+.nav_menu ul li:active {
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+}
+.hero_txt{
+    height: 65%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.hero_txt h1{
+    padding-bottom: 20px;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+.hero_txt p{
+    text-align: center;
+}
+.txt-wrapper{
+    width: 40%;
+}
+.about-wrapper{
+display: flex;
+max-width: 1080px;
+margin: auto;
+justify-content: center;
+align-items: center;
+padding-bottom: 50px;
+
+}
+.profile-pic{
+    height: 500px;
+    border-radius: 100%;
+    margin: 20px;
+}
+.about{
+    margin: 50px 0px 0px 50px;
+}
+.row{
+display: flex;
+max-width: 1080px;
+margin: auto;
+padding: 40px 0px;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.column{
+margin: 0px 30px;
+}
+.header-1{
+    padding-bottom: 12px;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.header-2{
+    padding-bottom: 12px;
+    font-size: 45px;
+    font-weight: 900;
+}
+.interest_wrapper{
+max-width: 1080px;
+margin: auto;
+padding: 40px 0px;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.contacts{
+    
+    background-color: hsl(186, 38%, 95%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact-wrapper{
+display: flex;
+flex-wrap: wrap;
+width:1080px;
+margin: auto;
+padding: 40px 0px;
+
+}
+.input-fields{
+    width: 900px;
+    height: 45px;
+    padding: 0px 12px;
+    margin: 12px;
+    border-style: none;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.button{
+    width: 150px;
+    height: 45px;
+    padding: 0px 12px;
+    margin: 12px;
+    border-style: none;
+    background-color: hsl(0, 0%, 100%);
+    align-self: flex-end;
+}
